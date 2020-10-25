@@ -35,9 +35,6 @@ setTimeout(() => {
   loading.remove();
   countdown.display = flex;
 }, 1000);
-window.addEventListener("load", function () {
-  console.log("page is loaded");
-});
 
 // Run every second
 setInterval(updateCountdown, 1000);
